@@ -19,7 +19,7 @@ steps:
     projectJsonPath: 'GetListings/project.json'
     splitOutput: true
     enablePackageMetadata: true
-    repositoryUrl: 'https://github.com/redfoxalpha/public-automations/blob/$(Build.SourceBranchName)/GetListings/project.json'
+    repositoryUrl: 'https://github.com/redfoxalpha/public-automations/blob/$(Build.SourceBranchName)/GetListings\project.json'
     repositoryCommit: '$(Build.SourceVersion)'
     repositoryBranch: '$(Build.SourceBranchName)'
     repositoryType: 'git'
