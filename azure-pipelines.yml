@@ -23,6 +23,7 @@ steps:
     repositoryCommit: '$(Build.SourceVersion)'
     repositoryBranch: '$(Build.SourceBranchName)'
     repositoryType: 'git'
+    projectUrl: 'https://alpha.uipath.com/redfoxalpha/DefaultTenant/automationhub_/automation-profile/get-listings'
     outputPath: '$(Build.ArtifactStagingDirectory)/Output'
     traceLevel: 'Information'
 - task: UiPathDeploy-preview@4
